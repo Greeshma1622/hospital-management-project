@@ -1,0 +1,56 @@
+{% extends 'base.html' %}
+{% load static %}
+        
+{% block title %}About{% endblock %}
+
+{% block content %}
+
+<section class="bg-light ">
+    <h1 class="text-center text-black mb-1">About us</h1>
+    <hr style="border:1px solid white;">
+
+        <div class="container mb-5 bg-light">
+            <div class="row">
+                <div class="col">
+                <img src="{% static 'images/about.jpg' %}" class="rounded" alt="Responsive image"/>
+                </div>
+                <div class="col  text-black">
+                </p>City Hospital was established in 1971 by a group of highly experienced doctors.
+                City Hospital has become one of the renowned names in the highest standard of private health care sector. 
+                The design of City Hospital Cochin harmoniously brings together the elements of accessablity, comfort and convenience.</p> 
+                </div> 
+            </div>
+        </div>
+                
+
+
+    <div class="card d-inline-flex mx-5 mb-5 " style="width:250px; height:300px;">
+        <div class="card-body bg-success">
+            <h2 class="card title bi bi-lightbulb text-center bg-muted">Our Mission</h2>
+            <p class="card-text text-center text-white font-size-16px">Health Promotion, Disease Prevention, Evidence Based Treatment and Quality Care at a Reasonable Cost in Partnership with the Community</p>
+        </div>
+    </div>
+        <div class="card d-inline-flex mx-5 mb-5" style="width:250px; height:300px;">
+            <div class="card-body bg-success">
+                <h2 class="card title bi bi-eye text-center bg-muted">Our vision</h2>
+                <p class="card-text text-center text-white font-size-16px">Health and Wellness of the community we serve</p>
+            </div>
+        </div>
+
+        <div class="card d-inline-flex mx-5 mb-5 " style="width:250px; height:300px;">
+            <div class="card-body bg-success">
+                <h2 class="card title bi bi-hourglass-bottom text-center bg-muted">24 Hours Service</h2>
+                <p class="card-text text-center text-white font-size-16px">city hospital has many unique features,such as the casualty,Ambulance Service,lab services,pharmacy service,emergency service etc.</p>
+            </div>
+        </div>
+        <div class="card d-inline-flex mx-5 mb-5" style="width:250px; height:300px;">
+            <div class="card-body bg-success">
+                <h2 class="card title bi bi-hand-thumbs-up text-center bg-muted">Our Guarantee</h2>
+                <p class="card-text text-center text-white font-size-16px">We believe that the use of time tested premium quality materials produced by internationally proven suppliers is crucial to long term satisfaction.</p>
+            </div>
+        </div>
+        <hr>
+</section>
+            
+
+{% endblock %}
